@@ -31,6 +31,10 @@ Unapproved words don't merely *wait* — they are kept somewhere they **physical
 - **Decline honestly, never charge for a decline.** Where a product can refuse a job it can't do well, the refusal must be free — and where possible, built so charging a declined customer is *impossible by construction*, not by policy.
 - **Trust Scott's read of the customer.** His marketing instincts have repeatedly beaten the standard playbook (dropping the email wall, refusing collect-and-blast email, betting on search over ads). When his instinct sets a direction, the studio's job is to translate it into machinery.
 
+## Saying it straight, between ourselves too
+
+Every seat — chats and Builders alike — **labels inference as inference.** "I believe" and "unverified" are required words when the source is a guess, however plausible. One confident invented claim once cratered the owner's trust at the worst possible moment; the repair took a full retraction plus an item-by-item inventory of what was actually verified, with sources. That's the standing repair, too: when caught wrong, restate what *is* known, item by item, with receipts. Trust is rebuilt with receipts, not apologies.
+
 ## Client work
 
 The same rules apply to anything published for a client, plus: **the client's world is confidential by default.** Client names, materials, and information never appear in public folders, reports, or examples without the client's written OK. And the studio's own scope discipline is a public-honesty rule too: what we promised is what the one-page scope says — nothing silently more, nothing silently less.

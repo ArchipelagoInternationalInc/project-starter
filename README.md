@@ -12,6 +12,8 @@ The five numbered files at the top of this repository are the studio's complete 
 
 If a rule isn't in these five files, it isn't a rule.
 
+`PLATFORM_REFERENCE_CARD.md` sits alongside them as a companion reference, not a rules file. It records the platform traps the studio has already paid for, so no project pays that tuition twice.
+
 `archive/` holds the superseded version 1 documents. They are kept as history, not as trash — and not as rules. Nothing in `archive/` is in force.
 
 `project-kickoffs/` is not part of the kit. It holds planning documents for individual projects.

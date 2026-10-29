@@ -1,0 +1,15 @@
+SESSION_HANDOFF.md
+
+📋 The Concept of SESSION_HANDOFF.md
+A SESSION_HANDOFF.md is a state-preservation document used to bridge the context gap between separate AI chat sessions. Because LLMs have a fixed context window and forget everything once a session is closed, this file acts as the project’s short-term memory or "save state."
+Instead of forcing a human developer to manually re-explain project history, architectural rules, or what task was just completed, the AI reads this markdown file at the very beginning of a new session to pick up right where the last one left off.
+🛠️ Key Sections Included in a Handoff File
+To make a handoff seamless, the document typically tracks four major pillars:
+•	Current Architecture State: A high-level view of the exact stack, recent schema updates, and live production endpoints (e.g., Next.js 16 setup, active Supabase RLS policies).
+•	The "Just Completed" Log: The precise milestones achieved in the last active session (e.g., Commit 9b18ad6 pushed, Blotato webhook with HMAC-SHA256 implemented).
+•	Active Engineering Roadblocks: Any hidden framework bugs or strict technical "gotchas" discovered during development so the next AI doesn't waste time repeating mistakes (e.g., Next.js 16 proxy header routing quirks).
+•	Immediate Next Steps: The exact task queue waiting to be executed next (e.g., Scaffold the iCal calendar feed endpoint).
+💬 Snippet to Paste Into a New Chat
+When you open a new session, you can use this prompt to initialize the handoff:
+"Please locate and read the file named SESSION_HANDOFF.md in the root directory. This document contains the exact architectural state, recent code execution footprints, and current technical roadblocks from our previous development session. Use it to anchor your context before proposing any modifications to the codebase."
+Would you like me to draft a quick markdown template of what your specific handoff looks like right now based on our Phase 4 and 5 updates?

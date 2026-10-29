@@ -1,0 +1,606 @@
+Act as a world-class New York advertising creative director, digital product designer, conversion strategist, UX architect, and Awwwards-level web designer.
+
+Design a complete, sophisticated, long-form marketing homepage for:
+
+COMPANY / PRODUCT:
+[INSERT PRODUCT NAME]
+
+WEBSITE:
+[INSERT DOMAIN]
+
+PRODUCT DESCRIPTION:
+[INSERT A CLEAR 2–4 SENTENCE DESCRIPTION]
+
+PRIMARY AUDIENCE:
+[INSERT TARGET CUSTOMER]
+
+PRIMARY CONVERSION GOAL:
+[INSERT MAIN ACTION: START FREE TRIAL, REQUEST A QUOTE, BOOK A DEMO, PURCHASE, ETC.]
+
+PRIMARY BRAND COLORS:
+[INSERT COLORS AND HEX VALUES]
+
+BRAND PERSONALITY:
+[INSERT 4–6 ATTRIBUTES, SUCH AS SOPHISTICATED, TRUSTWORTHY, TECHNICAL, WARM, AUTHORITATIVE, PREMIUM]
+
+Create one continuous, full-length homepage design—not merely a hero section.
+
+The final result should look like a complete website being viewed from the top of the page to the footer. It must be organized as a sequence of substantial, full-width horizontal bands that scroll vertically and tell a persuasive sales story.
+
+STRUCTURAL PRINCIPLE
+
+Think of the website as a sequence of individual advertising scenes.
+
+Every section should:
+
+1. Communicate one important idea.
+2. Have its own headline, short supporting copy, and visual focal point.
+3. Feel visually distinct from the section before and after it.
+4. Still belong to the same unified design system.
+5. Lead naturally into the next section.
+6. Help move the visitor closer to taking the primary action.
+
+Do not create a single oversized hero followed by a grid of small generic cards.
+
+Do not create an infographic poster.
+
+Do not create a dashboard collage with every feature shown at once.
+
+Do not compress the entire product story into one screen.
+
+The page must feel intentionally paced, like a premium editorial presentation, an advertising campaign, or a highly art-directed corporate website.
+
+FORMAT AND CANVAS
+
+Create a high-resolution, full-page desktop website composition.
+
+Use an approximately 1440–1600 pixel desktop width.
+
+The full composition should be approximately 8–12 browser screens tall.
+
+Show the page continuously from:
+
+Header
+to hero
+to feature bands
+to proof and trust
+to final call to action
+to footer.
+
+The homepage should be long enough that every major product benefit receives its own properly designed section.
+
+GLOBAL DESIGN DIRECTION
+
+The visual quality should feel:
+
+• Award-winning
+• Contemporary
+• Expensive
+• Strategic
+• Highly art-directed
+• Conversion-focused
+• Suitable for implementation in Next.js
+• Enhanced by tasteful GSAP animation
+• Polished enough to present to investors, customers, or a major national client
+
+Use a disciplined design system rather than a collection of unrelated ideas.
+
+Create:
+
+• A consistent typography hierarchy
+• A consistent button system
+• A consistent icon style
+• A consistent UI mockup style
+• A consistent lighting and rendering style
+• Repeating spacing and alignment rules
+• Clear visual rhythm
+• Strong contrast between major sections
+• Large, confident headlines
+• Generous margins and breathing room
+• Deliberate transitions between sections
+
+Avoid generic startup-template aesthetics.
+
+Avoid excessive pill-shaped labels, random floating cards, gratuitous gradients, meaningless statistics, and decorative interface elements that do not help explain the product.
+
+PAGE NARRATIVE
+
+The page should follow this persuasive sequence:
+
+1. PROMISE
+2. PROBLEM
+3. SOLUTION
+4. PRODUCT EXPERIENCE
+5. FEATURE BENEFITS
+6. HOW IT WORKS
+7. SECURITY OR TRUST
+8. CUSTOMER PROOF
+9. FINAL CONVERSION
+10. FOOTER
+
+Each of these should appear as one or more full-width website bands.
+
+SECTION 1 — HEADER AND HERO
+
+Create a premium navigation header with:
+
+• Product logo at left
+• Concise navigation in the center or right
+• Sign-in link if relevant
+• One visually dominant primary CTA
+• Excellent alignment and restrained spacing
+
+The hero should immediately explain:
+
+• What the product is
+• Who it is for
+• What outcome it delivers
+• What the visitor should do next
+
+Use a large, memorable headline with a clear hierarchy.
+
+The hero must contain:
+
+• One concise audience or category label
+• One dominant headline
+• One short supporting paragraph
+• Primary CTA
+• Secondary CTA
+• One principal product visual
+
+The principal visual may be:
+
+• A smartphone held by a person
+• A laptop or browser product mockup
+• A product photograph
+• A sophisticated conceptual visualization
+• A combination of desktop and mobile UI
+
+The hero visual must be clear, polished, and believable.
+
+Do not let the visual overpower the message.
+
+Do not place tiny unreadable text throughout the product mockup.
+
+SECTION 2 — THE CUSTOMER PROBLEM
+
+Create a full-width band dramatizing the customer’s current frustration.
+
+This section should make the visitor think:
+
+“That is exactly what happens to me.”
+
+Use a visually different composition from the hero.
+
+Possible structures:
+
+• Product clutter on one side and explanatory copy on the other
+• A fragmented workflow illustrated across several objects
+• A before-state shown through files, messages, spreadsheets, deadlines, or physical paperwork
+• A cinematic photographic scene with restrained overlays
+
+The section should contain:
+
+• Small category label
+• Strong problem-focused headline
+• Short explanatory paragraph
+• Three or four specific pain points
+
+Keep the problem concrete rather than abstract.
+
+Do not overuse fear.
+
+The purpose is recognition, not panic.
+
+SECTION 3 — THE CORE SOLUTION
+
+Introduce the product as the organizing system that replaces the problem.
+
+Use a substantial, elegant product dashboard or central interface as the main visual.
+
+This section should feel calmer, more ordered, and more controlled than the problem section.
+
+Present the central product promise in a simple form such as:
+
+• Everything in one place
+• One view of the entire workflow
+• One organized system
+• One secure source of truth
+
+Include three to five concise outcome statements around or beside the interface.
+
+The product UI must use the same design language as the hero UI.
+
+Do not invent a second unrelated interface style.
+
+SECTION 4 — FEATURE BAND ONE
+
+Dedicate an entire horizontal band to the first major product capability.
+
+Suggested structure:
+
+• Copy on the left
+• Large product visualization on the right
+
+Or reverse the arrangement for visual rhythm.
+
+Show the feature in use rather than presenting a generic icon.
+
+Possible feature examples:
+
+• Uploading and organizing materials
+• Managing records
+• Searching a library
+• Viewing a dashboard
+• Monitoring a project
+• Reviewing upcoming deadlines
+
+Include:
+
+• Eyebrow label
+• Feature headline
+• One short paragraph
+• Three clear benefit points
+• One large product interaction or UI state
+
+SECTION 5 — FEATURE BAND TWO
+
+Create another full-width section for the second major product capability.
+
+Reverse the layout from the previous section.
+
+This creates an alternating editorial rhythm as the visitor scrolls.
+
+Give this section its own visual concept while preserving the product UI system.
+
+Examples:
+
+• Calendar and reminders
+• Status monitoring
+• Automated notifications
+• Team collaboration
+• Progress tracking
+• Analytics
+• Personalization
+
+Show a focused interface state rather than an entire dashboard repeated again.
+
+SECTION 6 — FEATURE BAND THREE / WORKFLOW
+
+Use this band to demonstrate the product’s defining action or “money feature.”
+
+This should be one of the strongest sections on the page.
+
+Show the process sequentially:
+
+Step 1
+Step 2
+Step 3
+Result
+
+Use connected interface panels, an animated pathway, a horizontal process, or a central action surrounded by supporting steps.
+
+The process must be understandable without reading long paragraphs.
+
+The visitor should understand:
+
+• What they select
+• What the system creates or does
+• What happens next
+• What result they receive
+
+Make the process feel simple, fast, and professional.
+
+SECTION 7 — RESULT OR DELIVERY
+
+Create a section focused on the final customer outcome.
+
+Do not merely repeat the workflow.
+
+Show what success looks like after the product has completed its job.
+
+Possible outcomes:
+
+• A finished package
+• A delivered message
+• A completed transaction
+• An organized project
+• A hiring manager receiving information
+• A customer receiving confirmation
+• A team viewing a completed result
+• A clean before-and-after comparison
+
+This section should sell the emotional payoff:
+
+• Less scrambling
+• More confidence
+• Faster action
+• Better presentation
+• Greater control
+• More professional results
+
+SECTION 8 — SECURITY, TRUST, OR CONTROL
+
+Create a darker, quieter, highly credible trust section.
+
+Explain why the visitor can safely rely on the product.
+
+Use concrete visual demonstrations such as:
+
+• Private storage
+• Access permissions
+• Authentication
+• Expiring links
+• Activity history
+• Export controls
+• Deletion controls
+• Data ownership
+• Delivery records
+
+Do not rely only on generic padlock icons.
+
+Show actual product controls or an understandable systems diagram.
+
+Avoid unsupported certifications, invented legal claims, and decorative seals.
+
+Never imply that the product verifies, certifies, approves, or guarantees something unless that is factually true.
+
+SECTION 9 — CUSTOMER PROOF
+
+Create a premium proof band containing only credible claims supplied in the project brief.
+
+Possible elements:
+
+• One strong customer quotation
+• Customer portrait or contextual image
+• Selected client or partner names
+• Short use-case story
+• Measurable result
+• Product adoption statistic
+• Review score, only when verified
+• Before-and-after result
+
+Do not invent:
+
+• Customer counts
+• Star ratings
+• Hospitals
+• Corporate logos
+• Certifications
+• Awards
+• Usage totals
+• Testimonials
+• Performance percentages
+
+When verified proof is not supplied, use clearly marked placeholder content or design the section as “What early users value” without numerical claims.
+
+SECTION 10 — FINAL CONVERSION BAND
+
+Create a visually strong closing section that summarizes the promise and presents one clear next action.
+
+This section should feel conclusive and optimistic.
+
+Include:
+
+• Large closing headline
+• One short supporting paragraph
+• Primary CTA
+• Optional secondary CTA
+• One low-friction reassurance, such as “No card required,” only when accurate
+• A compact final product or customer visual
+
+The final CTA should visually echo the hero CTA so the page feels intentionally bookended.
+
+SECTION 11 — FOOTER
+
+Create a complete professional footer containing:
+
+• Logo
+• One-sentence product description
+• Product links
+• Company links
+• Resources
+• Legal links
+• Contact information
+• Social links where appropriate
+• Copyright
+• Required disclaimer
+• Optional email signup
+
+The footer must feel designed, not appended as an afterthought.
+
+VISUAL RHYTHM
+
+Alternate the section compositions as the visitor scrolls.
+
+For example:
+
+Hero:
+Text left, product right
+
+Problem:
+Visual left, text right
+
+Core solution:
+Text left, wide interface right
+
+Feature one:
+Large UI left, copy right
+
+Feature two:
+Copy left, visual right
+
+Workflow:
+Full-width sequential composition
+
+Security:
+Copy left, connected control panels right
+
+Proof:
+Testimonial right, customer image or product context left
+
+Final CTA:
+Centered or split composition
+
+Do not repeat the exact same two-column layout in every section.
+
+Use controlled variation:
+
+• Some sections may be centered.
+• Some may be asymmetrical.
+• Some may use a full-bleed visual.
+• Some may use a contained framed panel.
+• Some may use a wide interface spanning most of the page.
+• Some may use a smaller product detail enlarged dramatically.
+
+BAND TRANSITIONS
+
+Make every major section clearly identifiable as its own band.
+
+Use combinations of:
+
+• Background-value changes
+• Subtle border lines
+• Soft glows
+• Controlled gradients
+• Curved or diagonal transitions
+• Large abstract forms
+• Slight shifts in content width
+• Framed editorial panels
+• Full-bleed imagery
+• Spacious negative space
+
+Avoid abrupt, accidental transitions.
+
+The page should feel like one continuous composition with deliberate chapters.
+
+NEXT.JS AND GSAP MOTION DIRECTION
+
+Design the static page so it clearly supports sophisticated motion when implemented.
+
+Suggested motion behavior:
+
+• Hero text reveals in controlled staggered lines
+• Main device enters with slight depth and parallax
+• Background orbit lines move slowly
+• Product cards subtly separate as the user scrolls
+• Individual feature bands use pinned or sticky product visuals
+• Interface screenshots crossfade or slide between states
+• Workflow connectors animate from one step to the next
+• Numbers count upward only when factual
+• Security pathways illuminate as they enter the viewport
+• Final CTA resolves into a calm, stable composition
+
+Motion must support comprehension.
+
+Do not use constant floating, bouncing, spinning, or excessive mouse-following effects.
+
+The page should remain elegant with animation disabled.
+
+PRODUCT UI RULES
+
+Create a coherent application UI rather than unrelated mockups.
+
+Use:
+
+• The same logo
+• The same navigation language
+• The same typography
+• The same radius system
+• The same icon family
+• The same button system
+• The same status treatment
+• The same mobile and desktop components
+• Consistent names, dates, labels, and example data
+
+Every UI screen should represent a different state of the same real product.
+
+Interface text should be concise and legible.
+
+Do not create fictional functionality that is not included in the supplied product brief.
+
+COPY RULES
+
+Use the supplied website copy whenever it is available.
+
+Do not rewrite factual product claims merely to make them sound more impressive.
+
+Headlines may be sharpened, but the meaning must remain accurate.
+
+Keep paragraphs short.
+
+Write for scanning.
+
+Each section should have:
+
+• One main idea
+• One primary headline
+• One supporting paragraph
+• No more than three or four supporting points
+
+Avoid jargon, empty hype, and broad unsupported superlatives.
+
+Do not use language such as:
+
+• Guaranteed
+• Official
+• Certified
+• Fully compliant
+• Never miss
+• Always accurate
+• Verified
+
+unless the project documentation explicitly proves the claim.
+
+PROJECT-SPECIFIC DESIGN GUARDRAILS
+
+[INSERT REQUIRED LEGAL, INDUSTRY, OR BRAND LIMITATIONS HERE.]
+
+Examples:
+
+• Reserve red, amber, and green only for meaningful status indicators.
+• Do not use official-looking seals.
+• Do not imply certification or regulatory approval.
+• Do not display fake customer logos.
+• Do not add unsupported numbers.
+• Do not show real personal records.
+• Do not use stock photography clichés.
+• Do not use decorative imagery that conflicts with the target customer.
+
+QUALITY-CONTROL CHECKLIST
+
+Before presenting the final design, verify all of the following:
+
+1. It is a complete homepage, not a hero concept.
+2. It contains at least eight substantial horizontal bands.
+3. Every band communicates one clear product or sales idea.
+4. The sections form a logical customer journey.
+5. Layouts alternate enough to create visual rhythm.
+6. Product UI is consistent across the entire page.
+7. The design contains a clear primary CTA near the top and bottom.
+8. No unsupported statistics, customers, certifications, or testimonials appear.
+9. Text is large enough to be legible in the full-page composition.
+10. The footer is included.
+11. The design is feasible to implement in Next.js.
+12. Motion opportunities are suitable for GSAP but are not required for the static design to work.
+13. The overall result feels premium, strategic, modern, and conversion-focused.
+14. The design looks like a real website, not a presentation board or infographic.
+15. The page uses sequential full-width bands similar to a professionally art-directed corporate homepage.
+
+FINAL OUTPUT
+
+Produce one cohesive, full-length desktop homepage design.
+
+Show the entire page from header through footer in one continuous vertical composition.
+
+Prioritize structure, pacing, hierarchy, and sales storytelling over decorative effects.
+
+The final design should make the viewer understand:
+
+• The customer’s problem
+• The product’s solution
+• The product’s most important capabilities
+• How the product works
+• Why it can be trusted
+• What result the customer receives
+• What action the customer should take next

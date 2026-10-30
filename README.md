@@ -1,6 +1,6 @@
 # Archipelago Studio Kit — version 3
 
-Effective October 2026 (pending Scott's ratification of the v3 changes — see `KIT_V3_CHANGES.md`).
+Effective October 30, 2026 — ratified by Scott. The change record is `KIT_V3_CHANGES.md`.
 
 The seven numbered files at the top of this repository are the studio's complete standing rules:
 

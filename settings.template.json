@@ -1,5 +1,5 @@
 {
-  "_comment": "Studio Unattended Loop settings. Copy to .claude/settings.json. Edit the allow list to this project's real commands; keep ask and deny lists as written.",
+  "_comment": "Studio Unattended Loop settings (Kit v3). Copy to .claude/settings.json ONLY after the first dry loop has produced artifacts/EVIDENCE.md and artifacts/RUBRIC.md, because the Stop hook locks the door the moment this file exists. Edit the allow list to this project's real commands; keep ask and deny lists as written. The Stop hook runs the checking script first and the session-end report check second; keep both, in that order. The 30-minute timeout on the checking script is deliberate: if a project's checks take longer, raise it here and say so in DEFINITION_OF_DONE.md. The PostToolUse typecheck hook is advisory only (it warns, it never blocks).",
   "permissions": {
     "allow": [
       "Read", "Edit", "Write", "Glob", "Grep",
@@ -29,7 +29,8 @@
       {
         "matcher": "",
         "hooks": [
-          { "type": "command", "command": "bash scripts/verify.sh", "timeout": 1800 }
+          { "type": "command", "command": "bash scripts/verify.sh", "timeout": 1800 },
+          { "type": "command", "command": "bash scripts/report-check.sh", "timeout": 60, "_comment": "The session-end report hook (kit file 01): refuses a quiet close without a dated report in the corpus repo. Keep it, keep it last. If this project's report check has another name, point here at that." }
         ]
       }
     ],

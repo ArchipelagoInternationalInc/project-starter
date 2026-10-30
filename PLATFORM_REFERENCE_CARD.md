@@ -1,5 +1,5 @@
 # PLATFORM REFERENCE CARD
-*Companion to Studio Kit v2 — reference, not rules. These are the specific traps our platforms have already sprung on us, written down so no project pays this tuition twice. Builders: consult this before any deployment, domain, email, or webhook work.*
+*Companion to Studio Kit v3 — reference, not rules. These are the specific traps our platforms have already sprung on us, written down so no project pays this tuition twice. Builders: consult this before any deployment, domain, email, or webhook work.*
 
 ---
 
@@ -31,3 +31,9 @@
 
 ## Migrations of any kind (domains, email, hosts)
 Write the ordered runbook first, with the reason for each step's position. The proven shape from the SendMyLicense domain move: teach the sign-in system the new address **before** flipping the site to it; keep the old address valid until the first success on the new one; point webhooks at the host that never redirects; lock the old host only after nothing links to it anymore. The Builder states, at every pause, what it has deliberately not done yet.
+
+## Cloud Builders (rented machines)
+- **They are walled off, and the wall moves.** A cloud machine may be blocked from the database, the live site, or both — and the block can appear partway through a session that was working an hour earlier. The honest sentence is "not visible to me," never "it doesn't exist." The checking script reports such checks as CANNOT-RUN.
+- **Connections go stale after account changes.** A tool that worked yesterday can come back needing re-authorisation, and an automated session cannot do that itself; the symptom is a tool suddenly *refusing* rather than failing. Reconnect every integration after any account or plan change.
+- **A repository's guards only protect the branches that have them.** After installing any guard or hook, confirm it exists on the branch people actually work from; a guard on an unmerged branch is decorative.
+- **The checking script and the Mac's shell.** The Studio Mac's built-in shell may be an old version; run `bash --version` once per machine and test the checking script there before any project relies on it.

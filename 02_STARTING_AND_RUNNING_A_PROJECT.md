@@ -1,5 +1,5 @@
 # 02 — STARTING AND RUNNING A PROJECT
-*Archipelago Studio Kit v2 · The Builder's rulebook. Written in plain language on purpose — see Rule Zero.*
+*Archipelago Studio Kit v3 · The Builder's rulebook. Written in plain language on purpose — see Rule Zero.*
 
 ---
 
@@ -19,15 +19,18 @@ Why this rule exists: LivingBrush is Scott's 25-year personal identity, central 
 1. **Account check** (above), before anything is saved.
 2. **Create the project's repository** (its folder on GitHub) under the studio account. Private for products in development and always for client work.
 3. **Create the reports notebook** — the `<project>-corpus` repository with its `reports/` folder (public for products, private for client work) — and install the mechanism that refuses to end a session without a filed report.
-4. **Put the three anchor files in the project folder,** so any future session can start cold:
+4. **Put the six anchor files in the project folder,** so any future session can start cold:
+   - **GOAL.md** — one page, in Scott's words: what "finished and selling" looks like, the real-user test, and the money test. Every Definition of Done is written against it. Template: `GOAL_TEMPLATE.md`.
    - **CLAUDE.md** — the standing rules for this project (including the account check and plain language).
    - **SESSION_HANDOFF.md** — where things stand right now; updated at the end of every session.
    - **MASTER_PLAN.md** — the phases of the whole project and what "done" means for each.
-5. **Read the studio kit** (these five files, in the `project-starter` repository) and this project's planning documents before building anything.
+   - **INBOUND.md** — the dated log of outside input (emails, calls, client messages) and whether each one changes scope. Written by the Studio Head. Template: `INBOUND_TEMPLATE.md`.
+   - **DECISIONS.md** — the dated record of rulings on this project. Template: `DECISIONS_TEMPLATE.md`. (Older projects that keep decisions elsewhere name that place in CLAUDE.md.)
+5. **Read the studio kit** (the seven numbered files in the `project-starter` repository) and this project's planning documents before building anything.
 
 ## Running sessions
 
-- **One session, one task.** Every session ends with its report filed and SESSION_HANDOFF.md updated. A new session starts by reading the handoff and *verifying* the state it describes before acting on it — documents describe intentions; the project folder describes reality.
+- **One session, one task — or one session, one Definition of Done.** Under the Unattended Loop (file 06), a session runs until the checking script is green, which may take many attempts; that file wins where the two differ. Either way a session ends with its report filed and SESSION_HANDOFF.md updated. A new session starts by reading the handoff **and INBOUND.md**, then *verifying* the state they describe before acting — documents describe intentions; the project folder describes reality.
 - **Phases have gates.** A project's risky question (does the engine work? can the document be read reliably?) is answered first, cheaply, with a plain test — before any website or polish exists. A phase ends with an honest pass-or-fail that Scott rules on. A failed gate that stops a project early is the process succeeding.
 - **Deadlines move only on purpose.** If a date can't be met, it is re-cut deliberately in the PM chat — never allowed to quietly slide.
 

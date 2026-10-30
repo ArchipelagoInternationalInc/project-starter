@@ -1,5 +1,5 @@
-# 06 — HOW WE CHOOSE
-*Archipelago Studio Kit v2, added September 2026. This file governs which products get built. It exists because two finished products were set aside in one day for reasons a day of research would have found before the first line of code. Choosing is the studio's real product; building is the cheap part.*
+# 07 — HOW WE CHOOSE
+*Archipelago Studio Kit v3. Drafted September 2026, ratified October 2026. This file governs which products get built. It exists because two finished products were set aside in one day for reasons a day of research would have found before the first line of code. Choosing is the studio's real product; building is the cheap part.*
 
 ---
 
@@ -62,7 +62,7 @@ Score each line 0–3. Hard thresholds are marked; a candidate below any thresho
 ## Where it runs
 
 - **Project chat:** runs stages 1–4 for its own product. It has the packet, the reports, the users, and the history.
-- **Portfolio seat:** stage 5, blind to affection. It also holds the shelf: every ruled candidate with its score, so that when a slot opens the next project is already chosen.
+- **Portfolio seat (the Studio Head):** stage 5, blind to affection. It also holds the shelf: every ruled candidate with its score, so that when a slot opens the next project is already chosen.
 - **The kit:** holds only the format and the thresholds, so every brief is comparable to every other.
 
 ## The launch plan (the second gate)
@@ -71,7 +71,7 @@ A product that passed Gate 0 still does not go public without a **launch plan**:
 
 ## Applying this to what already exists
 
-Every built or half-built product gets a Market Brief before any further hour is spent on it. The order is set by the portfolio seat. A product that fails is parked with its brief attached, so the reason is a document, not a memory. A parked product with a finished engine is not dead: the engine is inventory, reusable as parts inside the next product that has a buyer.
+**Grandfather clause (October 2026 ruling).** Products that already have real users or signed partners when this file is ratified do not go back for a Market Brief: CheckThenFix, ShallFinder, and the SendMyLicense family (the engine, Steel Ticket, and the nurses product). They proceed to finish and launch under file 05's lineup, and they still get a launch plan (below). Every other built or half-built product gets a Market Brief before any further hour is spent on it. The order is set by the portfolio seat. A product that fails is parked with its brief attached, so the reason is a document, not a memory. A parked product with a finished engine is not dead: the engine is inventory, reusable as parts inside the next product that has a buyer.
 
 ## What this replaces
 

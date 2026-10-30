@@ -1,5 +1,5 @@
 # 06 — The Unattended Loop
-*Studio Kit v2 addendum. Amends 01 How We Work and 02 Starting and Running a Project, and the Three-Seat Campaign protocol. Where they conflict, this file wins. Rule Zero applies: plain language.*
+*Studio Kit v3. Amends 01 How We Work and 02 Starting and Running a Project. Where they conflict, this file wins. Rule Zero applies: plain language.*
 
 ## What changes, in one paragraph
 
@@ -21,7 +21,13 @@ The slowness was never the models. It was that "done" lived in Scott's head, so 
 
 ## Permissions: no more clicking "allow"
 
-The settings file lists three groups of commands. **Allowed** (run silently): editing files, tests, lint, builds, installing the listed dependencies, ordinary commits and pushes, the checking script. **Ask** (stop and wait for Scott): anything touching Supabase migrations, Vercel production, Stripe, Doppler secrets, or a force-push. **Denied** (never, no matter what): deleting whole folders, resetting history, publishing to any account but the studio's. This is the permission posture the gauntlet-verify skill already assumed; now it is written into every repo instead of remembered.
+The settings file lists three groups of commands. **Allowed** (run silently): editing files, tests, lint, builds, installing the listed dependencies, ordinary commits and pushes, the checking script. **Ask** (stop and wait for Scott): anything touching Supabase migrations, Vercel production, Stripe, Doppler secrets, or a force-push. **Denied** (never, no matter what): deleting whole folders, resetting history, publishing to any account but the studio's. This is written into every repo instead of remembered.
+
+**Cloud Builders run on automatic approval.** A Builder task started in the cloud (by the Studio Head or as a scheduled task in the Claude app) has its approval setting turned to automatic. Left on the default, a run stops at the first action that needs approval, and overnight nobody is there; that is the hours-of-waiting this whole file exists to end. The repo's ask-list and deny-list are the backstop: an automatic run still cannot deploy to production, migrate a database, touch billing, or force-push, because those commands are refused at the repo, not at the human.
+
+## Where the Builder is running changes what it may judge
+
+The Builder runs either on the Studio Mac or on a rented cloud machine. The cloud machine is deliberately walled off: it cannot reach the product's database, the keychain, or the live site directly. **A check that cannot run on the machine the Builder is using is not a pass and not a skip** — the checking script reports it as CANNOT-RUN and refuses to go green. A cloud Builder may loop freely on code, tests, and public pages, but it can never be the one to declare a stretch finished if any check needs the walled-off things. That final declaration happens on the Mac, or in a session that has what the check needs. The checking script template has three outcomes for this reason: pass, fail, and cannot-run.
 
 ## What each seat does now
 
@@ -37,7 +43,7 @@ The Three-Seat Campaign rule stands: one Definition of Done covers all work up t
 
 ## Safety valves (so an unattended Builder cannot run away)
 
-- **Iteration cap** in every Definition of Done (default 25). Past it, the Builder commits `BLOCKED:`, writes `artifacts/BLOCKED.md` explaining the last three attempts, and stops.
+- **Iteration cap** in every Definition of Done (default 25). The checking script counts its own runs in `artifacts/loop-count` and fails hard at the cap, so the cap is a mechanism, not a memory. Past it, the Builder commits `BLOCKED:`, writes `artifacts/BLOCKED.md` explaining the last three attempts, and stops.
 - **Platform valve:** Claude Code stops honoring the closed door after eight consecutive blocked attempts and ends the turn anyway. If that happens, restart with "continue until verify.sh is green" and count it as an intervention worth investigating.
 - **Money line:** any Definition of Done whose checks call paid APIs states a dollar stop line; the Builder meters a small pilot first and projects before spending (the ShallFinder rule).
 - **Ask-list hard gates** above. An unattended Builder can never deploy to production, migrate a database, or touch billing on its own.
@@ -52,4 +58,4 @@ Every loop ends with `artifacts/EVIDENCE.md`: for each check, the command run, i
 
 ## Converting a project already in progress
 
-Use `CONVERSION_KIT.md`. It contains one prompt to paste into a Builder session on any existing repo; the Builder inventories the true current state, writes a Definition of Done for the current phase from the existing plan, builds the checking script from the tests that already exist, installs the settings and reviewer, proves the script can fail, and files a report. Convert the best-instrumented project first (ShallFinder — its tests and guard-proofs mean its checking script practically exists), then CheckThenFix, then the rest as each comes back into active work.
+Use `CONVERSION_KIT.md`. It contains one prompt to paste into a Builder session on any existing repo; the Builder inventories the true current state, writes a Definition of Done for the current phase from the existing plan, builds the checking script from the tests that already exist, proves the script can fail, runs one dry loop, and only then installs the door (the settings file) — in that order, because the door locks the moment it is installed. Convert in lineup order: the frontline products first (CheckThenFix, ShallFinder, the SendMyLicense family), then the rest as each comes back into active work.

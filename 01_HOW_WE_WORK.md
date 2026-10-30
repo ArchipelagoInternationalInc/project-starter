@@ -37,7 +37,7 @@ The Studio Head reads both before answering any status question or handing out w
 
 The Studio Head keeps `STUDIO_STATUS.md` in `studio-hq`: one page, dated, rewritten whole, describing today. Once a week Scott says **"weekly review"**: the Studio Head reads everything fresh, issues per-project directions, and rewrites the board. Between reviews, Scott reads the board and answers decision lists; he does not have to ask.
 
-**Madelyn's standing voice.** Anything Madelyn emails to the studio inbox with **STUDIO:** at the start of the subject line is logged by the Studio Head as a directive — with Scott's weight on social-media and client-content matters, and as a request on everything else. She never has to relay anything through Scott.
+**Madelyn's standing voice — the studio inbox is GitHub, not email.** Madelyn's own Claude files her directives straight into the `studio-hq` repository as Issues (GitHub's built-in inbox: numbered, dated, threaded, closable), labeled `from-madelyn`. She says it to her phone; her Claude files it; the Studio Head picks it up on its next cycle and answers in the same thread. On social-media and client-content matters an Issue from her carries Scott's weight; on everything else it is a request. She never opens GitHub and never relays anything through Scott. The same door serves anyone the studio chooses to give it to. Email remains the door for clients and the outside world; the Studio Head files what arrives there into the right project's `INBOUND.md`.
 
 ## Future-proofing (why this kit outlives any model)
 

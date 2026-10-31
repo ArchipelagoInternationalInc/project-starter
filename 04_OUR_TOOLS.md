@@ -39,6 +39,8 @@ Three things, all maintained by Claude: the Drive folders (which asset is at whi
 ## The minds — Claude, two accounts
 **Scott's account (Max):** the Studio Head (Claude Duet) and the cloud Builders run here; so do Consultant chats. **Madelyn's account (Pro):** the content factory, with her own memory and her phone, and the same Blotato, Higgsfield, and Drive connections. Two accounts because memory and chat history are per account: one shared account would blend her content work into the Studio Head's view of the studio and compete with it for usage limits. Shared truth lives in GitHub and Drive, so nothing is lost by the split. Technical chores run in cheap throwaway chats. Products that need AI inside them call the Claude API (the pay-per-use service) with a per-project key and a monthly limit.
 
+**Which model a Builder runs on:** the cheapest tier that gets the checking script green. The Studio Head starts each Definition of Done on the cheapest tier and moves up one tier only when a stretch hits its iteration cap or the reviewer rejects the same thing twice. Model names change every few months and are never written into this kit; the rule is the tier and the test, not the name.
+
 ## Shared logins — the vault
 Every shared login (Blotato, Higgsfield, GitHub, Supabase, Vercel, Doppler, Cloudflare, and the rest) lives in a shared password-manager vault that both Scott and Madelyn use. Secrets never travel through chat; a secret that passes through a transcript is rotated.
 

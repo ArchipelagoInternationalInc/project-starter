@@ -8,6 +8,7 @@
 - A **"Blocked" deployment cannot simply be redeployed** — nothing was ever built; the cause must be fixed and the work pushed again.
 - **Plan upgrades can silently switch on deployment protection**, putting a login wall in front of the public site. After any plan change: the stranger test (private window, logged out).
 - Its error messages sometimes point at paid fixes for problems that are free settings.
+- **On a repo connected to Vercel, a push to `main` IS a production deployment.** There is no separate "deploy" step to refuse. On Oct 30, 2026 an accidental push to `main` on CheckThenFix put August code on the live site for about seven hours before it was rolled back to the Sep 25 build. Before any push to `main` on a connected repo, the Builder says so out loud and names the commit that will go live; the ask-list treats a push to `main` on a connected repo the same as a Vercel production action.
 
 ## Cloudflare (domains)
 - Records that point at Vercel must be **"DNS only" (the gray cloud), never proxied (orange)**.

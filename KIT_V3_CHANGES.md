@@ -37,6 +37,7 @@
 
 ## Choosing (file 07)
 - Filed as a numbered rule file and ratified, with a **grandfather clause**: products with real users or signed partners (CheckThenFix, ShallFinder, the SendMyLicense family) don't go back for a Market Brief; everything else does before another hour is spent.
+- **Changed by Scott, November 5, 2026:** the kill checks, the pass/fail rubric and the "no work without a ruled brief" rule are retired. They're replaced by a three-question reality check (who pays, why us instead of the free option, the cheapest way to find out). The Market Brief now gives perspective only and never blocks a build. Details in file 07.
 
 ## The reference card
 - Four new entries from the field review: cloud machines are walled off and the wall moves; connections go stale after account changes; guards only protect the branches that have them; test the checking script on the Mac's shell once.

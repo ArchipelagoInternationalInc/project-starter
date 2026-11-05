@@ -10,7 +10,7 @@ The seven numbered files at the top of this repository are the studio's complete
 - `04_OUR_TOOLS.md`
 - `05_THE_PORTFOLIO_RULES.md` — the lineup tiers and the four layers of truth
 - `06_THE_UNATTENDED_LOOP.md` — how Builders run without anyone clicking "allow"
-- `07_HOW_WE_CHOOSE.md` — the Market Brief law for new products
+- `07_HOW_WE_CHOOSE.md` — the reality check and Market Brief: market perspective that never blocks a build
 
 If a rule isn't in these seven files, it isn't a rule.
 
